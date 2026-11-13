@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tsunami",
+  "version": "${version}",
+  "name": "Tsunami",
+  "description": "A giant tsunami wave that rolls across the land, rips up blocks and sweeps away everything in its path. Use /tsunami start.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tsunamimod.TsunamiMod"],
+    "client": ["com.tsunamimod.TsunamiClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
